@@ -1,0 +1,133 @@
+.dash-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-dash {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    height: 100vh;
+    padding: 5px;
+    border: solid;
+    background-color: rgba(230, 230, 230, 0.89);
+    margin-top: 10px;
+    
+}
+
+.right-dash {
+    max-width: 70%;
+    padding: 5px;
+    
+}
+
+.dash-buttons {
+    width: 200px;
+    /* float: left; */
+    margin: 10px;
+    padding: 10px;
+    /*border-color: grey;*/
+    box-shadow: 0px 3px 5px 0px darkgray;
+    
+}
+
+/* #add-meal-div {
+    margin: auto;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding-top: 30px;
+    width: 50vw;
+    background-color: #f17d24dc;
+    text-align: center;
+    font-size: larger;
+} */
+
+#add-meal {
+    width: 150px;
+    /* float: left; */
+    margin: 10px;
+    padding: 10px;
+    /*border-color: grey;*/
+    box-shadow: 0px 3px 5px 0px darkgray;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+input {
+    /* float: left; */
+    margin: 10px;
+    padding: 10px;
+    /*border-color: grey;*/
+    box-shadow: 0px 3px 5px 0px darkgray;
+
+
+}
+
+#mealDescription {
+    width: 250px;
+    height: 50px;
+}
+
+.meal {
+    display: flex;
+    flex-wrap: unset;
+    background-color: #f17d24dc;
+    width: 70vw;
+    padding: 10px;
+    margin: 10px;
+    /* align-items: center; */
+    /* align-content: space-between; */
+    /* justify-items: flex-end; */
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+
+
+
+
+/*Popup*/
+.popup {
+    display: none;
+    position: fixed;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup-content {
+    background-color: #e7e6e5e1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Style for the close button */
+#close-popup {
+    background-color: #ff0000; /* Red button background */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#close-popup:hover {
+    background-color: #ff3333; /* Lighter red on hover */
+}

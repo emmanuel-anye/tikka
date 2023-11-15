@@ -1,0 +1,114 @@
+/* body {
+    background-color: #FFF6F4;
+} */
+
+.headerbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292172;
+
+}
+
+#logo {
+    padding: 15px;
+}
+
+.headerbuttons {
+
+    margin-right: 20px;
+}
+
+
+#headerbutton1,
+#headerbutton2 {
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #F86F03;
+    text-decoration: none;
+
+
+}
+
+#headerbutton1:hover,
+#headerbutton2:hover {
+    background-color: #FFA41B;
+
+}
+
+#logout-button {
+    font-weight: bold;
+    background-color: #F86F03;
+    text-decoration: none;
+
+}
+
+
+
+.menubar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F86F03;
+    border-style: solid;
+}
+
+.menu>a {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    border: solid;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #F86F03;
+}
+
+.menu>a:hover {
+    background-color: #FFA41B;
+}
+
+
+/* Footer CSS */
+footer {
+    background-color: #222222;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-items: center; */
+    justify-content: space-around;
+    /* align-content: center; */
+}
+
+.footer-divs {
+    width: 20%;
+    color: aliceblue;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+.footer-divs > p > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-divs > h4 {
+    font-size: larger;
+}
+
+#footer-logo {
+    margin-top: 25px;
+}
+
+#copyright {
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}
+

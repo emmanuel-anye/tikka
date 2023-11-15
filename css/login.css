@@ -1,0 +1,202 @@
+/* body {
+    background-image: url(https://img.freepik.com/premium-photo/restaurant-menu-set-food-dishes-black-stone-background-top-view_187166-58905.jpg?w=2000);
+    
+} */
+
+/* .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+} */
+
+main {
+    background-image: url(https://img.freepik.com/premium-photo/restaurant-menu-set-food-dishes-black-stone-background-top-view_187166-58905.jpg?w=2000);
+    /* background-size: cover; */
+}
+
+
+#main-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+    align-content: center;
+    padding-top: 50px;
+    width: 60vw;
+    background-color: #f17d24dc;
+
+
+}
+
+#forms-title {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+    /* width: 65vw; */
+    /* background-color: #F86F03; */
+
+}
+
+#register-form-login {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    /* background-color: #f17d247e; */
+    /*width: 90%;*/
+    /* padding: 0px 30px 0px 30px; */
+
+}
+
+#customer-main-form {
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    background-color: #f17d24dc;
+
+}
+
+#login-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 1080px) {
+    .form-fields {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        margin-right: 0;
+        /* Reset margin for smaller screens */
+        margin-bottom: 10px;
+        /* Add some vertical spacing between form fields */
+    }
+
+}
+
+@media (max-width: 700px) {
+    #main-container {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f17d24dc;
+        width: unset;
+    }
+}
+
+input {
+    /* float: left; */
+    margin: 10px;
+    padding: 10px;
+    /*border-color: grey;*/
+    box-shadow: 0px 3px 5px 0px darkgray;
+
+
+
+
+}
+
+label {
+    width: 90px;
+    text-align: left;
+
+
+}
+
+.input-box {
+    width: 250px;
+    border-color: #DEDEDE;
+
+}
+
+
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+
+
+.error {
+    background-color: rgb(240, 165, 165);
+}
+
+#form-signup {
+    text-decoration: none;
+}
+
+#restau-login {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#login-title {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+    /* width: 65vw; */
+    /* background-color: #F86F03; */
+
+}
+
+#customer-login-button {
+    font-size: x-large;
+    /* width: 25vw; */
+    background-color: #F5F5F5;
+
+}
+
+#restaurant-login-button {
+    font-size: x-large;
+    /* width: 25vw; */
+
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+.sign-buttons {
+    /* background-color: greenyellow; */
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    font-size: larger;
+    width: 150px;
+}

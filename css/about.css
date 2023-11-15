@@ -1,0 +1,32 @@
+article {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    
+
+}
+
+
+
+#about {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    /* background-color: #e9e3e3; */
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#292172, #f86f03);
+    
+}
+
+main {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#292172, #f86f03);
+    
+}

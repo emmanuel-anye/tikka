@@ -1,0 +1,167 @@
+body {
+    background-color: #FFF6F4;
+}
+
+
+.homecover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292172;
+    height: 500px;
+    padding: 10px;
+
+
+}
+
+.homecoverleft {
+    color: #FFF6F4;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+
+}
+
+#cover-pic {
+    max-width: 400px;
+    min-width: 150px;
+    width: 100%;
+}
+
+/*.homecoverright{
+    
+}*/
+
+
+#icons-section {
+    display: flex;
+    flex: content;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sections {
+    margin-top: 25px;
+}
+
+.icons {
+    max-width: 70px;
+
+    /* min-width: 150px; */
+    width: 100%;
+}
+
+.icon-divs {
+    max-width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+@media (max-width: 1080px) {
+    .icons-section {
+        display: flex;
+        flex: content;
+        flex-wrap: wrap;
+    }
+
+    .icon-divs {
+        padding: 5px;
+    }
+}
+
+#banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#snacks {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/snacks-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    min-width: 300px;
+    min-height: 300px;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: x-large;
+
+}
+
+#seafood {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/seafood-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    min-width: 300px;
+    min-height: 300px;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: x-large;
+}
+
+/* .meals-section {
+    
+} */
+
+.meals-section {
+    text-align: center;
+}
+
+.meal-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meal-card {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* .meal-card img {
+    width: 300px;
+    height: 300px;
+} */
+
+.add-to-cart-btn {
+    background-color: #292172;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .meal-cards {
+        flex-direction: column; /* Stack as blocks on small screens */
+    }
+
+    .meal-card {
+        width: 100%; /* Full width for cards on small screens */
+    }
+}
+
+.meal-image {
+    width: 250px;
+    height: 200px;
+}
